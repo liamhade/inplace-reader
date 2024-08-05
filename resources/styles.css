@@ -1,1 +1,83 @@
+:root {
+	--control-panel-spacing: -20px;
+}
 
+
+#body {
+	background-color: peachpuff;
+}
+
+.main {
+	display: flex;
+	height: 70vh;
+	margin-top: 30px;
+	margin-left: 20%;
+	margin-right: 20%;
+	flex-direction: column;
+	justify-content: center;
+	outline: 2px solid rgba(128, 128, 128, 0.209);
+}
+
+.secondary-container {
+	margin-left: 20%;
+	margin-top: 11%;
+}
+
+#word-box {
+	font-size: 40px;
+	text-align: center;
+	/* outline: 2px solid black; */
+	width: 75%;
+}
+
+.spritz-controls {
+	align-self: center;
+	margin-top: 10px;
+}
+
+#wpm-input {
+	width: 10vh;
+	margin-right: 10px;
+	outline: none;
+	text-align: center;
+}
+
+#wpm-input::placeholder {
+	font-style: italic;
+	text-align: center;
+}
+
+.word-info {
+	display: flex;
+	flex-direction: column;
+	margin-top: 40px;
+	height: 30%;
+	/* outline: 1px solid red; */
+}
+
+.word-index-controls {
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	flex-direction: row;
+	margin-top: var(--control-panel-spacing);
+	gap: 10px;
+}
+
+#word-index {
+	width: 15%;
+}
+
+#total-words {
+	margin-top: -5px;
+}
+
+#file-box {
+	display: flex;
+	align-items: center;
+	width: 76%;
+	border-top: 1px solid gray;
+	padding: 10px;
+	gap: 10px;
+	margin-top: 6vh;
+}
