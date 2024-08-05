@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Liam's Spritz</title>
+	<link rel="stylesheet" href="./resources/styles.css">
+</head>
+<body id="body">
+	<div class="main">
+		<div class="secondary-container">
+			<div id="word-box">
+				Spritz Content Will Load Here
+			</div>
+	
+			<div class="spritz-controls">
+				<input  id="wpm-input" type="text" placeholder="WPM">
+				<button id="toggle-button">Start Spritz</button>
+				<button id="reset-button">Reset Spritz</button>
+			</div>
+
+			<div class="word-info">
+				<p id="reading-estimate">Time to read piece at this rate: 0h 0m 0s</p>
+								
+				<div class="word-index-controls">
+					<p>Word index:</p>
+					<input id="word-index">
+					<button id="show-word-index">Show Index</button>
+					<button id="prev-word-index"> ← </button>
+					<button id="next-word-index"> → </button>
+				</div>
+
+				<p id="total-words">Total words: 0</p>
+			</div>
+		
+			<div id="file-box">
+				<button id="load-file-button">Load</button>
+				<input  id="file-input" type="file">
+				<label for="file-input" id="file-label">(file not loaded)</label>
+			</div>
+		</div>
+	</div>
+	<script src="./resources/script.js"></script>
+</body>
+</html>
